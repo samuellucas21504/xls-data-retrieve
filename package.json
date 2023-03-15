@@ -1,15 +1,20 @@
 {
-  "name": "js",
+  "name": "xls-data-retrieve",
   "version": "1.0.0",
-  "description": "",
-  "main": "xd.js",
+  "description": "Node module the data of rows separated by arrays.",
+  "main": "xls-data-retrieve.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Samuel Lucas Rodrigues",
   "license": "ISC",
   "dependencies": {
     "xlsx": "^0.18.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuellucas21504/xls-data-retrieve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samuellucas21504/xls-data-retrieve/issues"
+  },
+  "homepage": "https://github.com/samuellucas21504/xls-data-retrieve#readme"
 }

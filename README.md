@@ -1,5 +1,5 @@
 # xls-data-retrieve
-Node module the data of rows separated by arrays.
+Node module that separate the data of rows of a xls file, in arrays.
 
 ## Functions
 The module has two main functions:

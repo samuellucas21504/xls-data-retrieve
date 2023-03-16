@@ -90,12 +90,16 @@ function addOptions(str, options){
 
     if(options?.all || options?.removeAllCommas)
         str = removeAllCommas(str);
-        
+    
+    if(options?.all || options?.removeAllDots)
+        str = removeAllDots(str);
+    
     if(options?.all || options?.removeAllParentheses)    
         str = removeAllParentheses(str);
 
     if(options?.all || options?.toUpperCase)
         str = str.toUpperCase();
+    
 
     return str;
 }
@@ -114,6 +118,10 @@ function replaceSpaceToUnderLine(str) {
 
 function removeAllCommas(str) {
     return str.replace(',', '');
+}
+
+function removeAllDots(str){
+    return str.replace('.', '');
 }
 
 function removeAllParentheses(str) {
